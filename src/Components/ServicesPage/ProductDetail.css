@@ -1,0 +1,182 @@
+.product-container {
+   background-image: url('../../../public/laptop1.jpg');
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   position: relative;
+   top: 0;
+}
+
+.heading {
+   color: white;
+   text-align: center;
+   padding-top: 2%;
+   font-size: 50px;
+   font-weight: 700;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-detail {
+   margin-top: 2%;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.product-d-info {
+   background-color: rgba(0,0,0, 0.2);
+   padding: 2%;
+   border-radius: 10px;
+}
+
+.product-d {
+   color: white;
+   font-size: 20px;
+   padding-top: 2%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.product-da {
+   display: flex;
+   justify-content: flex-start;
+   margin-bottom: .2em;
+}
+
+.progress-da {
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: .2em;
+}
+
+.product-d img {
+   width: 50%;
+   height: 50%;
+}
+
+.product-d-text {
+   padding: .2em;
+}
+
+.product-comparison {
+   margin-top: 8%;
+   margin-left: 10%;
+   margin-right: 10%;
+   background-color: rgba(0,0,0, 0.2);
+   padding: 2%;
+   border-radius: 10px;
+}
+
+.product-comparison h2 {
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   padding-top: 2%;
+}
+
+.product-comparison p {
+   color: white;
+   text-align: center;
+   font-size: 16px;
+   padding-top: 2%;
+   padding-bottom: 5%;
+}
+
+.progress {
+   width: 100%;
+   height: 20px;
+   padding: 3px;
+}
+
+.progress-done {
+   height: 100%;
+   border-radius: 8px;
+   text-align: center;
+   line-height: 20px;
+   transition: width 1s ease-in-out;
+}
+
+.side-content {
+   margin-top: 8%;
+   background-color: rgb(0,0,0);
+   padding: 2%;
+}
+
+.side-content h1 {
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+
+.side-content-d {
+   color: white;
+}
+
+.side-content-section {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   height: 50vh;
+   text-align: center;
+   border: 1px solid white;
+   background-image: url('../../../public/laptopt.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: 4%;
+   border-radius: 4px;
+   position: relative;
+}
+
+.overlay {
+   backdrop-filter: blur(5px);
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   border-radius: 4px;
+   background-color: rgba(75, 72, 72, 0.2);
+}
+
+.side-content-details {
+   margin: auto auto;
+   z-index: 999;
+}
+
+.side-content-details h2 {
+   color: white;
+   font-size: 24px;
+   padding-bottom: 2%;
+}
+
+.side-content-details p {
+   color: white;
+   font-size: 16px;
+   padding-bottom: 2%;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+@media screen and (max-width: 768px) {
+   .product-d {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .product-d img {
+      width: 100%;
+      height: 100%;
+   }
+}
+.sub-head{
+   font-weight: bolder;
+}

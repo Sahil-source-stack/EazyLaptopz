@@ -1,0 +1,16 @@
+.brand-logo{
+  width: 30%;
+  height: vh;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.navbar-nav{
+  --bs-nav-link-color: white;
+  --bs-nav-link-disabled-color:white;
+  --bs-nav-link-hover-color: aqua;
+}
